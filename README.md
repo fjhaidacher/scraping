@@ -1,6 +1,7 @@
+
 #Tarea #1 Grupo: Franz Heidacher, Jaime Garcia y Victor de Leon
-#Curso Text Minning
-#Pedro 
+#Curso Text Minning UVG
+#Pedro Aguilar.
 
 #Se creó environment scrapping-tripadvisor en Anaconda llamado scrapping-tripadvisor
 #Se instaló scrapy con pip install scrapy
@@ -13,5 +14,8 @@ C:\Users\vdeleon\Anaconda3\envs\tripadvisor2>scrapy shell "https://www.tripadvis
 scrapy startproject tripadvisor2scrapy genspider review tripadvisor.com 
 scrapy crawl tripadvisor -o puerto_escondido_hotels.csv -t csv
 
-#Columnas puerto_escondido_hotels.csv ->
-Rating, Review
+#Nombres Columnas puerto_escondido_hotels.csv
+Rating
+Review
+
+#El sitio que se utilizó fue el de Tripadvisor y se replicó el ejercicio realizado en clase. Usando la referencia de Hoteles específicamente los ubicados en Puerto Escondido México.
