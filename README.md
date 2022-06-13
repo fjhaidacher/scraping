@@ -13,6 +13,6 @@ C:\Users\vdeleon\Anaconda3\envs\tripadvisor2>scrapy shell "https://www.tripadvis
 scrapy startproject tripadvisor2scrapy genspider review tripadvisor.com 
 scrapy crawl tripadvisor -o puerto_escondido_hotels.csv -t csv
 
-#Nombres Columnas puerto_escondido_hotels.csv
+#Columnas puerto_escondido_hotels.csv ->
 Rating
 Review
