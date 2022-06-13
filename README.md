@@ -14,5 +14,4 @@ scrapy startproject tripadvisor2scrapy genspider review tripadvisor.com
 scrapy crawl tripadvisor -o puerto_escondido_hotels.csv -t csv
 
 #Columnas puerto_escondido_hotels.csv ->
-Rating
-Review
+Rating, Review
